@@ -1,0 +1,186 @@
+/* menu start */
+.menu{
+  background-color: #FFAA1D;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+.social{
+  float: right;
+}
+.social i{
+  margin: 5px;
+}
+/* menu end */
+
+/* navbar start */
+.logoname{
+  color:#9D6200;
+  margin-right: 30px;
+}
+.navbar-nav li{
+font-size: 20px;
+margin-left: 10px;
+}
+.navbar-nav li:hover{
+text-decoration: underline;
+
+}
+.navbar{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.fntsm{
+  margin-bottom: -10px;
+}
+/* navbar end */
+
+
+/* about us start */
+#About{
+  margin: 20px 0 20px 0;
+}
+.aboutimg{
+width: 100%;
+}
+.title-head{
+  font-size: 34px;
+  color: #9D6200;
+}
+.title-para{
+  padding-top: 5px;
+  font-size: 28px;
+}
+.text-para{
+  font-size: 17px;
+}
+/* about us end */
+
+/* project start */
+.projectalign{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+
+}
+.projectalign .card{
+  margin: 10px;
+}
+/* project end */
+
+/* gallery start */
+
+@media only screen and (max-width: 600px) {
+  .gallery {
+   flex-wrap: wrap;
+  }
+}
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.5);
+}
+/* gallery end */
+
+/* contact us start */
+
+.contactform{
+ border: solid 1px grey;
+ border-radius: 15px;
+}
+form{
+  padding: 30px;
+}
+/* contact us end */
+
+/* contact list start */
+table, th, td {
+  border: 1px solid;
+  padding: 10px;
+}
+table{
+  margin: 20px;
+  width: 90%;
+}
+
+
+/* contact list end */
+
+/* footer start */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-content {
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+/* footer end */
+
+.btnedit{
+  border: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color:green
+}
+.btndelete{
+  border: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color:red;
+}
+.tablestyle{
+  overflow-x:auto;
+}
